@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Selisha Thapa| Developer</title>
+
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+
+
+
+</head>
+
+
+<body>
+<section class="section1">
+
+		<div id="header">
+			<div class="container">
+
+				<nav>
+					<img src="logos.png" class="logo">
+					<ul id="sidemenu">
+						<li> <a href="#header">Home</a></li>
+						<li> <a href="#about">About</a></li>
+						<li> <a href="#projects">Projects</a></li>
+						<li> <a href="#contact">Contact</a></li>
+						<i class="fas fa-times " onclick="closemenu()"></i>
+					</ul>
+					<i class="fas fa-bars" onclick="openmenu()"></i>
+				</nav>
+				<div class="header-text">
+					<p>Programmer</p>
+					<h1>Hey, I'm<span>Selisha Thapa</span><br><span id="element"></span></h1>
+					<div class="image">
+						<img src="protfolio.jpg">
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+</section>
+
+
+
+
+
+	<div id="about">
+		<div class="container">
+			<div class="row">
+				<div class="about-col-1">
+					<img src="user.png">
+				</div>
+				<div class="about-col-2">
+					<h1 class="sub-title">About Me</h1>
+					<p>
+						I am a sophomore majoring in Computer Science at Northern Kentucky University. My passion for
+						technology and its potential to transform the world has driven me to pursue a career in this
+						field. As a motivated and innovative student, I strive to make a positive impact by leveraging
+						my skills in computer science. I am eager to contribute to a dynamic and challenging work
+						environment.
+					</p>
+					<div class="tab-titles">
+						<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+						<p class="tab-links" onclick="opentab('experience')">Experience</p>
+						<p class="tab-links" onclick="opentab('education')">Education</p>
+					</div>
+					<div class="tab-contents active-tab skills-tab" id="skills">
+						<ul>
+							<li><span>Python</span> <span class="logo2"><img
+										src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">
+								</span> </li>
+							<li><span>HTML/CSS</span> <span class="logo2"> <img
+										src=" https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+										alt=""></span> </li>
+							<li><span>JavaScript</span> <span class="logo2"> <img
+										src=" https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+										alt=""></span> </li>
+							<li><span>Java</span> <span class="logo2"> <img
+										src=" https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+										alt=""></span> </li>
+							<li><span>C++</span> <span class="logo2"> <img
+										src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg "
+										alt=""></span> </li>
+							<li><span>SQL</span> <span class="logo2"> <img
+										src=" https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+										alt=""></span> </li>
+						</ul>
+					</div>
+					<div class="tab-contents" id="experience">
+						<ul>
+							<li><span>2022-Current</span><br>Teaching Assistant</li>
+							<li><span>June 2020-August 2020</span><br>BloomEd Intern</li>
+							<li><span>November 2020-May 2021</span><br>Data Entry Operator</li>
+							<li><span>July 2018-December 2020</span><br>Researcher</li>
+						</ul>
+					</div>
+					<div class="tab-contents" id="education">
+						<ul>
+							<li><span>2022-Current</span><br>Northern Kentucky University</li>
+							<li><span>2018-2021</span><br>Golden Gate International College</li>
+							<li><span>2005-2018</span><br>The New Summit H.S.School</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="projects">
+		<div class="container">
+			<h1 class="sub-title">My Projects</h1>
+			<div class="projectlist">
+				<div class="project">
+					<img src="TicTac.png" class="tic-img">
+					<div class="layer">
+						<h3>TicTacToe Game</h3>
+						<p>Developed and deployed a dynamic <br>Tic Tac Toe game in Java
+							, attracting<br> a large player base
+							of over 10,000 users.</p>
+
+
+					</div>
+				</div>
+				<div class="project">
+					<img src="sleep.png" class="sleep-img">
+					<div class="layer">
+						<h3>Sleep Tracking App</h3>
+						<p>Engineered a comprehensive sleep <br>tracking application in Python, resulting <br>in an
+							average
+							increase of 2 hours in users'<br> overall sleep duration.</p>
+
+
+					</div>
+				</div>
+				<div class="project">
+					<img src="AI.png" class="ai-img">
+					<div class="layer">
+						<h3>AI Sudoku Solver</h3>
+						<p>Designed and implemented a web-based <br>Sudoku solver using computer vision <br>techniques,
+							solving
+							uploaded pictures of <br>unsolved Sudoku grids with a success rate <br>of 90%.</p>
+
+
+					</div>
+				</div>
+			</div>
+			<a href="#" class="btn">See more</a>
+
+			<div id="contact">
+				<div class="container">
+					<div class="row">
+						<div class="contact-left">
+							<h1 class="sub-title">Contact Me</h1>
+							<p><i class="fas fa-paper-plane"></i>selishathapa5@gmail.com</p>
+							<p><i class="fas fa-phone-square-alt"></i>2145164068</p>
+							<div class="social-icons">
+								<a href="https://www.facebook.com/selisha.thapa.1"><i class="fab fa-facebook"></i></a>
+								<a href="https://twitter.com/selisha_thapa"><i class="fab fa-twitter-square"></i></a>
+								<a href="https://www.instagram.com/_sselishaaa/"><i class="fab fa-instagram"></i></a>
+								<a href="https://www.linkedin.com/in/selisha-thapa/"><i class="fab fa-linkedin"></i></a>
+							</div>
+							<a href="https://docs.google.com/document/d/1qlIxjtLc5fZu2thedVUumn0wmYoY6XWncycbQrwASq0/edit#"
+								class="btn btn2">Resume</a>
+
+						</div>
+						<div class="contact-right">
+							<form>
+								<input type="text" name="Name" placeholder="Your Name" required>
+								<input type="email" name="email" placeholder="Your Email" required>
+								<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+								<button type="submit" class="btn btn2">Submit</button>
+							</form>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+
+
+	</div>
+
+
+	<div class="copyright">
+		<p>Copyright@2023 Selisha Thapa. All rights reserved</p>
+
+	</div>
+
+
+
+	<script>
+		var tablinks = document.getElementsByClassName("tab-links")
+		var tabcontents = document.getElementsByClassName("tab-contents")
+		function opentab(tabname) {
+			for (tablink of tablinks) {
+				tablink.classList.remove("active-link");
+			}
+			for (tabcontent of tabcontents) {
+				tabcontent.classList.remove("active-tab");
+			}
+			event.currentTarget.classList.add("active-link");
+			document.getElementById(tabname).classList.add("active-tab");
+		}
+	</script>
+	<script>
+		var sidemenu = document.getElementById("sidemenu");
+		function openmenu() {
+			sidemenu.style.right = "0";
+
+		}
+		function closemenu() {
+			sidemenu.style.right = "-200px";
+		}
+
+	</script>
+	<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+	<!-- Setup and start animation! -->
+	<script>
+		var typed = new Typed('#element', {
+			strings: ['<i>majoring</i> in CS', ' at NKU.'],
+			typeSpeed: 50,
+		});
+	</script>
+
+
+</body>
+
+</html>
